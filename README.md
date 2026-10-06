@@ -1,16 +1,61 @@
-# React + Vite
+# Queue Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Queue Management System built with React.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Add customers to the queue
+- Display customer details
+- Show queue position
+- Update customer status
+- Remove customers
+- Reset the complete queue
+- Dynamic service and status colors
 
-## React Compiler
+## Built With
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- HTML
+- CSS
+- Lucide React
 
-## Expanding the ESLint configuration
+## React Concepts Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- useState
+- Props
+- Component communication
+- map()
+- filter()
+- Spread operator
+- Conditional rendering
+- Dynamic styling
+
+## About the Project
+
+I built the UI with the help of AI and wrote the React logic myself.
+
+This project helped me understand how state, props, and component communication work in React.
+
+## What I Learned
+
+- How to manage data using `useState`
+- How to pass data using props
+- How child components can update parent state
+- How to render and update lists using `map()`
+- How to remove items using `filter()`
+- How React updates the UI when state changes
+
+## Future Improvements
+
+- Add localStorage
+- Add search/filter
+- Add priority queue
+- Add backend and database
+- Improve mobile responsiveness
+
+## Author
+
+Rohit Dhurve
+
+live at https://queue-management-system-using-react.vercel.app/
